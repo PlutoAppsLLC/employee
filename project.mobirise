@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 7,
+    "uniqCompNum": 8,
     "versionPublish": "3.10.4",
     "favicon": "@PROJECT_PATH@/assets/images/mcms-bannerwebv1-artboard1-128x17-37.png",
     "noImageResize": ""
@@ -31,6 +31,14 @@
           ],
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_name": "header4",
+          "_styles": {
+            "H1": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
           "_anchor": "header4-2",
           "_params": {
             "parallax": true,
@@ -53,15 +61,7 @@
           },
           "title": "Pluto Apps",
           "text": "Important Links for all of our Special Snowflakes",
-          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>",
-          "_styles": {
-            "H1": {
-              "color": "#ffffff"
-            },
-            "P": {
-              "text-align": "left"
-            }
-          }
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
         },
         {
           "_inherit": "msg-box1",
@@ -138,6 +138,45 @@
           "title": "Web App Index",
           "text": "",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://plutoapps.network\" data-toolbar=\"-mbrBtnMove\">Homepage</a>"
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525",
+              "text-align": "left"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-7",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true
+          },
+          "title": "Firebase Status<br>",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://status.firebase.google.com/\" data-toolbar=\"-mbrBtnMove\">Status Page</a>"
         },
         {
           "_tags": [
