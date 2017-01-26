@@ -99,7 +99,7 @@
           },
           "title": "Developer Team E-Mail",
           "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mail.meils.io\" data-toolbar=\"-mbrBtnMove\">Open</a>"
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://mail.meils.io\" data-toolbar=\"-mbrBtnMove\">Open</a>"
         },
         {
           "_inherit": "msg-box1",
